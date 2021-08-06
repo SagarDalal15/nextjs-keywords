@@ -39,7 +39,12 @@ export default function KeywordFilter() {
               alignItems: "center",
             }}
           >
-            <Image src="/res/search.png" width={100} height={100} />
+            <Image
+              alt="Search Image"
+              src="/res/search.png"
+              width={100}
+              height={100}
+            />
           </div>
           <div style={{ width: "70%" }}>
             <Form.Control

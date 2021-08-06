@@ -52,9 +52,10 @@ export default function FilterTable(props) {
         >
           <thead>
             {headerGroups.map((headerGroup) => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
+              <tr key={headerGroup} {...headerGroup.getHeaderGroupProps()}>
                 {headerGroup.headers.map((column) => (
                   <th
+                    key={column}
                     {...column.getHeaderProps()}
                     style={{
                       background: "white",
@@ -76,10 +77,11 @@ export default function FilterTable(props) {
             {rows.map((row) => {
               prepareRow(row);
               return (
-                <tr {...row.getRowProps()}>
+                <tr key={row} {...row.getRowProps()}>
                   {row.cells.map((cell) => {
                     return (
                       <td
+                        key={cell}
                         {...cell.getCellProps()}
                         style={{
                           padding: "15px 0px",

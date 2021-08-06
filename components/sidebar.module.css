@@ -1,0 +1,31 @@
+.sidebar {
+  position: absolute;
+  height: 100vh;
+  width: 230px;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-size: 20px;
+}
+
+.headerInner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.termMonitorImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+}

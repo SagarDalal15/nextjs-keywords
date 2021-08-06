@@ -1,0 +1,27 @@
+.input {
+  border: none;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  font-size: 12px;
+}
+
+.input:focus {
+  border: none;
+}
+
+.buttonDiv {
+  background-color: white;
+  height: 28px;
+  color: #3f0e40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border-top-right-radius: 5px;
+  height: 30px;
+  font-size: 14px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}

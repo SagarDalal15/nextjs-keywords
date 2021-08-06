@@ -1,0 +1,18 @@
+.keywordFilterWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.keywordFilter {
+  width: 900px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  padding: 10px 0px;
+}

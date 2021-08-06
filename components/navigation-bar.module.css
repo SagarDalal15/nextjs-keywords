@@ -1,0 +1,16 @@
+.navigationbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #3f0e40;
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.searchbar {
+  margin-left: 50%;
+}

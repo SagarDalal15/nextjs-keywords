@@ -6,7 +6,7 @@ import classes from "./keyword-filter.module.css";
 export default function KeywordFilter() {
   return (
     <div className={classes.keywordFilterWrapper}>
-      <div>
+      <div className={classes.content}>
         <div className={classes.header}>
           Add Another Keyword
           <div
@@ -22,7 +22,7 @@ export default function KeywordFilter() {
           <div style={{ marginLeft: "10px" }}>Upgrade</div>
           <div
             style={{
-              marginLeft: "460px",
+              marginLeft: "auto",
               fontSize: "15px",
             }}
           >
